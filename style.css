@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --main-font: "Montserrat", sans-serif;
+    --bg-color: rgba(47, 200, 220, 0.867);
+    --other-color: aliceblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--other-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--main-font);
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    font-size: 100px;
+}
+
+h3{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    border: 3px solid var(--other-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 5px black;
+}
+
+.jogar__novamente{
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+    background-color: var(--other-color);
+    margin-top: 25px;
+    cursor: pointer;
+}
+
